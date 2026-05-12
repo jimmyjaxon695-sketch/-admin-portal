@@ -10,7 +10,7 @@ function Landing({ products }) {
   return (
     <div className="page">
       <div className="hero">
-        <h1>Welcome to <span>Admin Portal</span></h1>
+        <h1>Welcome to <span>Home Page</span></h1>
         <p>Manage your products, track inventory, and grow your store — all in one place.</p>
         <Link to="/products" className="hero-btn">View Products</Link>
       </div>
