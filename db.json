@@ -1,0 +1,59 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 59.99,
+      "stock": 120,
+      "image": "https://picsum.photos/200/150?random=1",
+      "description": "High quality wireless headphones with noise cancellation."
+    },
+    {
+      "id": "2",
+      "name": "Leather Wallet",
+      "category": "Accessories",
+      "price": 29.99,
+      "stock": 75,
+      "image": "https://picsum.photos/200/150?random=2",
+      "description": "Slim genuine leather wallet with card slots."
+    },
+    {
+      "id": "3",
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "price": 89.99,
+      "stock": 50,
+      "image": "https://picsum.photos/200/150?random=3",
+      "description": "Lightweight running shoes for all terrains."
+    },
+    {
+      "id": "4",
+      "name": "Stainless Steel Bottle",
+      "category": "Kitchen",
+      "price": 19.99,
+      "stock": 200,
+      "image": "https://picsum.photos/200/150?random=4",
+      "description": "Insulated stainless steel water bottle, 1L."
+    },
+    {
+      "id": "5",
+      "name": "Backpack",
+      "category": "Bags",
+      "price": 49.99,
+      "stock": 90,
+      "image": "https://picsum.photos/200/150?random=5",
+      "description": "Durable 30L backpack with laptop compartment."
+    },
+    {
+      "name": "air max 95",
+      "category": "shoes",
+      "price": 15,
+      "stock": 15,
+      "image": "https://www.google.com/imgres?q=https%20air%20max%20images&imgurl=https%3A%2F%2Fmedia.gettyimages.com%2Fid%2F50371660%2Fphoto%2Fnike-air-max-running-shoe.jpg%3Fs%3D612x612%26w%3Dgi%26k%3D20%26c%3DmhrZ2lHSEi5SSe3F6QUbPlCe07fW5srWmk0lORybTTU%3D&imgrefurl=https%3A%2F%2Fwww.gettyimages.com%2Fphotos%2Fnike-air-max&docid=6v9bol7crghAiM&tbnid=xKb6pp3lnkU8oM&vet=12ahUKEwiUo8H3kbKUAxUs2QIHHTALDLg4FBCc8A56BAhHEAE..i&w=612&h=408&hcb=2&ved=2ahUKEwiUo8H3kbKUAxUs2QIHHTALDLg4FBCc8A56BAhHEAE",
+      "description": "custom shoes for going out with friend",
+      "id": "FlDjvbxaTpw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

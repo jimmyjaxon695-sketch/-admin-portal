@@ -4,7 +4,7 @@ import { useParams, useNavigate } from "react-router-dom";
 function ProductDetail({ products, updateProduct, deleteProduct }) {
   const { id } = useParams();
   const navigate = useNavigate();
-  const product = products.find((p) => p.id === parseInt(id));
+  const product = products.find((p) => p.id === id);
   const [editing, setEditing] = useState(false);
   const [price, setPrice] = useState("");
   const [stock, setStock] = useState("");
