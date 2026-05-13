@@ -23,18 +23,16 @@ export default function Home() {
         <p>The go-to store for your coffee needs.</p>
       </div>
 
-      <div className="home-lower">
-        <aside className="sidebar-card">
-          <div className="search-panel">
-            <h2>Search</h2>
-            <input
-              type="search"
-              value={search}
-              onChange={e => setSearch(e.target.value)}
-              placeholder="Search blends, origins, or flavours"
-            />
-          </div>
-        </aside>
+      <div className="right-column">
+        <div className="search-panel">
+          <h2>Search</h2>
+          <input
+            type="search"
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+            placeholder="Search blends, origins, or flavours"
+          />
+        </div>
 
         <div className="featured">
           <h2>Popular blends</h2>
@@ -54,6 +52,25 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <footer className="home-footer">
+        <div className="info-card">
+          <h2>Our Story</h2>
+          <p>
+            At Coffee R Us, we are passionate about bringing you the finest coffee blends from around the world. Our journey began with a simple love for coffee and a desire to share that love with others. We source our beans from sustainable farms, ensuring that every cup you enjoy supports ethical practices and quality craftsmanship.
+          </p>
+        </div>
+
+        <div className="info-card">
+          <h2>Why Choose Us?</h2>
+          <ul>
+            <li>Wide selection of premium coffee blends</li>
+            <li>Ethically sourced and sustainably grown beans</li>
+            <li>Expertly roasted for maximum flavor</li>
+            <li>Exceptional customer service and support</li>
+          </ul>
+        </div>
+      </footer>
     </section>
   )
 }
