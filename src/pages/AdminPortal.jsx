@@ -46,7 +46,7 @@ export default function AdminPortal() {
           </label>
           <label>
             Description
-            <input name="description" value={form.description} onChange={handleChange} placeholder="Smooth and sweet" />
+            <input name="description" value={form.description} onChange={handleChange} placeholder="Stylish and Comfortable" />
           </label>
           <button type="submit">Save</button>
           {message && <p className="message">{message}</p>}
