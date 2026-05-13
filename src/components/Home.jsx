@@ -34,15 +34,6 @@ export default function Home() {
               placeholder="Search blends, origins, or flavours"
             />
           </div>
-          <div className="locations-panel">
-            <h2>Locations</h2>
-            <ul>
-              <li>Downtown</li>
-              <li>Main Street</li>
-              <li>Midtown</li>
-              <li>Uptown</li>
-            </ul>
-          </div>
         </aside>
 
         <div className="featured">
